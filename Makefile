@@ -1,7 +1,7 @@
 CC          = g++
-CFLAGS      = -Wall -ansi -pedantic -ggdb
+CFLAGS      = -Wall -ansi -pedantic -O3 -ggdb -std=c++11
 OBJS        = player.o board.o
-PLAYERNAME  = player
+PLAYERNAME  = bestplayer
 
 all: $(PLAYERNAME) testgame
 	
